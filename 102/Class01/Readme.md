@@ -4,8 +4,6 @@ Markdown - a text-to-HTML conversion tool for web writers. Markdown is a great w
 Basic Markdown Syntax includes:
 Headings, Paragraphs, Line Breaks, Horizontal Rules, Emphasis (Bold/Italics), Block Quotes, Links, Images, and Lists.
 
-(Picture of Cheatsheet)
-
 Source: <https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax>
 Source: <https://www.markdownguide.org/basic-syntax/>
 

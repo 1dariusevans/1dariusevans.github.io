@@ -8,3 +8,8 @@
 * Keep a Positive Attitude.
 
 <h3> Hello my name is Darius. I am an aspiring coder. Please visit my portfolio page [here](https://1dariusevans.github.io/)
+
+#### Table of Contents 
+102 [here](https://github.com/1dariusevans/Reading-Notes/tree/main/102)
+
+
