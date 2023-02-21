@@ -2,9 +2,38 @@
  <html lang="en">
  <head>
  <title>Title of the document</title>
- </head>
+ <style>
+    body {background-color: powderblue;}
+    h1   {background-color: yellow;
+        color: blue;}
+    </style>
+</head>
  <body>
-<h1>This is a heading</h1>
-<p>This is a paragraph.</p>
+<h1>Class 1 Lab</h1>
+<p style="color: red"> 1. What is your full name? </p>
+        <input type="text" id="Name" name="Name">
+<p style="color: blue"> 2. What is your Date of Birth? </p> 
+        <input type="text" id="DOB" name="DOB">
+<p style="color: green"> 3. What country do you live in? </p>
+        <input type="text" id="Country" name="Country">
+<p style="color:blueviolet"> 4. What is your occupation? </p>
+        <input type="text" id="Occupation" name="Occupation">
+
+<button onclick="submit()">submit</button>
+
+<script> function submit() {
+    let Name = document.getElementById("Name").value
+    let DOB = document.getElementById("DOB").value
+    let Country = document.getElementById("Country").value
+    let Occupation = document.getElementById("Occupation").value
+    console.log("Name", Name)
+    console.log("DOB", DOB)
+    console.log("Country", Country)
+    console.log("Occupation", Occupation) 
+    alert("Hello "+ " " +Name + "Your birthday is" +" "+ DOB + " " + "You live in " + " " + Country + " " + "You work as a " + " " +" Occupation)
+
+}
+    </script>
+
  </body>
  </html>
